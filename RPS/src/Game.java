@@ -54,5 +54,6 @@ public class Game {
             else
                 System.out.println("Invalid command.");
         }
+        g.output.displayScore();
     }
 }
