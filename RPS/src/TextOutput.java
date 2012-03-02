@@ -31,7 +31,8 @@ public class TextOutput implements Output {
 //        System.out.print("Enter How Many Rounds You Would Like to Play:");
     }
     
-    public void displayScore() {
+    public void displayScore(ResultsDataBase rdb) {
+        System.out.println(rdb.getScore());
         // implement me!
     }
     
